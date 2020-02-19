@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="218c8e6d-5e85-461d-8d37-8c4a20022da7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/TwoDEngineCore/IGraphicsProvider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TwoDEngineCore/IDrawspace.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SkiaGtkGraphicsProvider/Class1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SkiaGtkGraphicsProvider/GraphicsProvider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TwoDEngineCore/Geometry/Matrix2D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TwoDEngineCore/Geometry/Point2D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C3DB721F-BCFE-4A68-8B40-FB6793FB378C/2A/ShaderDescription.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TwoDEngineCore/Assets/IText.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TwoDEngineCore/IPaintable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SkiaGtkGraphicsProvider/SkiaTypeHelpers.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TwoDEngineCore/Class1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VeldridGraphicsProvider/Tests/TestFixture.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VeldridGraphicsProvider/GraphicsProvider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SkiaGtkGraphicsProvider/GtkDrawspace.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SkiaGtkGraphicsProvider/Assets/Image.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SkiaGtkTests/UnitTest1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ServiceRegistry/IService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ServiceRegistry/ServiceRegistry.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TDEGui/GUIService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TDEGui/IGUIService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/39ECA4C5-19E5-4B88-A767-8F246202FF5A/3d/8cd6904a/SKColor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VeldridGraphicsProvider/VeldridDrawspace.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VeldridGraphicsProvider/Class1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LinuxApp/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D9520D18-552C-4A97-8D0C-2197CE6B4DD0/82/26efcc1f/Application.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VeldridGraphicsProvider/Assets/Image.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TwoDEngineCore/Assets/IImage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TwoDEngineCore/Geometry/Rect2D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TDEGui/Class1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TwoDEngineCore/IMatrix2D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/12324552-F778-4FC6-B997-AB8109B78FB3/3/WindowCreateInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TwoDEngineCore/IPoint2D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TwoDEngineCore/IRect2D.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/TwoDEngineCore/DrawSpace.cs" />
+        <option value="$PROJECT_DIR$/TwoDEngineCore/IPoint2D.cs" />
+        <option value="$PROJECT_DIR$/TwoDEngineCore/IMatrix2D.cs" />
+        <option value="$PROJECT_DIR$/SkiaGraphicsProvider/Geometry/Matrix2D.cs" />
+        <option value="$PROJECT_DIR$/TwoDEngineCore/Tests/TestFixture.cs" />
+        <option value="$PROJECT_DIR$/SkiaGraphicsProvider/Tests/TestFixture.cs" />
+        <option value="$PROJECT_DIR$/LinuxSkiaGraphicsProvider/Class1.cs" />
+        <option value="$PROJECT_DIR$/LinuxSkiaGraphicsProvider/GraphicsProvider.cs" />
+        <option value="$PROJECT_DIR$/GTK3SkiaGraphicsProvider/GraphicsProvider.cs" />
+        <option value="$PROJECT_DIR$/LinuxGTK3SkiaGraphicsProvider/GraphicsProvider.cs" />
+        <option value="$PROJECT_DIR$/LinuxGTK3SkiaGraphicsProvider/Tests/TestFixture.cs" />
+        <option value="$PROJECT_DIR$/LinuxGTK3SkiaGraphicsProvider/Tests/TestApp.cs" />
+        <option value="$PROJECT_DIR$/LinuxApp/Program.cs" />
+        <option value="$PROJECT_DIR$/SkiaGraphicsProvider/SkiaDrawspace.cs" />
+        <option value="$PROJECT_DIR$/SkiaGraphicsProvider/Geometry/Point2D.cs" />
+        <option value="$PROJECT_DIR$/SkiaTest/Program.cs" />
+        <option value="$PROJECT_DIR$/VeldridGraphicsProvider/Class1.cs" />
+        <option value="$PROJECT_DIR$/TwoDEngineCore/Geometry/Matrix2D.cs" />
+        <option value="$PROJECT_DIR$/TwoDEngineCore/Geometry/Point2D.cs" />
+        <option value="$PROJECT_DIR$/VeldridGraphicsProvider/Tests/TestFixture.cs" />
+        <option value="$PROJECT_DIR$/TDEGui/Class1.cs" />
+        <option value="$PROJECT_DIR$/VeldridGraphicsProvider/VeldridAppBase.cs" />
+        <option value="$PROJECT_DIR$/TwoDEngineCore/Geometry/IImage.cs" />
+        <option value="$PROJECT_DIR$/TwoDEngineCore/Assets/Image.cs" />
+        <option value="$PROJECT_DIR$/TwoDEngineCore/Assets/IIMage.cs" />
+        <option value="$PROJECT_DIR$/VeldridGraphicsProvider/VeldridDrawspace.cs" />
+        <option value="$PROJECT_DIR$/VeldridGraphicsProvider/Assets/Image.cs" />
+        <option value="$PROJECT_DIR$/SkiaGraphicsProvider/Class1.cs" />
+        <option value="$PROJECT_DIR$/SkiaGraphicsProvider/GraphicsProvider.cs" />
+        <option value="$PROJECT_DIR$/VeldridGraphicsProvider/GraphicsProvider.cs" />
+        <option value="$PROJECT_DIR$/TwoDEngineCore/IPaintable.cs" />
+        <option value="$PROJECT_DIR$/SkiaGtkGraphicsProvider/GtkTests.cs" />
+        <option value="$PROJECT_DIR$/TwoDEngineCore/Assets/IText.cs" />
+        <option value="$PROJECT_DIR$/TwoDEngineCore/Tests/ProviderIndependantTests.cs" />
+        <option value="$PROJECT_DIR$/SkiaGtkGraphicsProvider/GtkTests/GtkTestFixture.cs" />
+        <option value="$PROJECT_DIR$/SkiaGTKTests/Class1.cs" />
+        <option value="$PROJECT_DIR$/SkiaGTKTests/Tests/GraphicsProviderTests.cs" />
+        <option value="$PROJECT_DIR$/TwoDEngineCore/Geometry/Rect2D.cs" />
+        <option value="$PROJECT_DIR$/SkiaGtkGraphicsProvider/SkiaTypeHelpers.cs" />
+        <option value="$PROJECT_DIR$/TwoDEngineCore/Assets/IImage.cs" />
+        <option value="$PROJECT_DIR$/SkiaGtkGraphicsProvider/Assets/Image.cs" />
+        <option value="$PROJECT_DIR$/ServiceRegistry/Class1.cs" />
+        <option value="$PROJECT_DIR$/ServiceRegistry/ServiceRegistry.cs" />
+        <option value="$PROJECT_DIR$/TDEGui/IGUIService.cs" />
+        <option value="$PROJECT_DIR$/TDEGui/GUIService.cs" />
+        <option value="$PROJECT_DIR$/ServiceRegistry/IService.cs" />
+        <option value="$PROJECT_DIR$/TwoDEngineCore/IGraphicsProvider.cs" />
+        <option value="$PROJECT_DIR$/TwoDEngineCore/IDrawspace.cs" />
+        <option value="$PROJECT_DIR$/SkiaGtkGraphicsProvider/GtkDrawspace.cs" />
+        <option value="$PROJECT_DIR$/SkiaGtkTests/UnitTest1.cs" />
+        <option value="$PROJECT_DIR$/SkiaGtkGraphicsProvider/GraphicsProvider.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XlUg7PZwWNkzEgPQkkNPVbudn4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/workspaces/Veldrid/veldrid-samples/src/Veldrid.Samples.sln" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunManager" selected=".NET Project.LinuxApp">
+    <configuration name="LinuxApp" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/SkiaTest/bin/Debug/netcoreapp3.1/SkiaTest.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SkiaTest/bin/Debug/netcoreapp3.1" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/SkiaTest/SkiaTest.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v3.1" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="218c8e6d-5e85-461d-8d37-8c4a20022da7" name="Default Changelist" comment="" />
+      <created>1581620284951</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581620284951</updated>
+      <workItem from="1581620292502" duration="4213000" />
+      <workItem from="1581626842082" duration="4149000" />
+      <workItem from="1581636739463" duration="6661000" />
+      <workItem from="1581699670078" duration="7497000" />
+      <workItem from="1581711852986" duration="855000" />
+      <workItem from="1581729578972" duration="1894000" />
+      <workItem from="1581731503843" duration="7577000" />
+      <workItem from="1581796516931" duration="9904000" />
+      <workItem from="1581879960262" duration="16762000" />
+      <workItem from="1581964901667" duration="4827000" />
+      <workItem from="1581970408031" duration="1883000" />
+      <workItem from="1581981474221" duration="286000" />
+      <workItem from="1581986432408" duration="8719000" />
+      <workItem from="1582055346443" duration="16660000" />
+      <workItem from="1582073900936" duration="725000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="WindowStateProjectService">
+    <state x="436" y="169" width="769" height="561" key="#LinuxApp" timestamp="1581804632088">
+      <screen x="67" y="27" width="1853" height="1052" />
+    </state>
+    <state x="563" y="229" width="758" height="657" key="#LinuxApp/2560.0.2560.1440/67.27.2493.1413@67.27.2493.1413" timestamp="1581736107394" />
+    <state x="436" y="169" width="769" height="561" key="#LinuxApp/67.27.1853.1052@67.27.1853.1052" timestamp="1581804632088" />
+    <state x="405" y="216" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581731984530">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state x="405" y="216" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.0.2560.1440/67.27.2493.1413@67.27.2493.1413" timestamp="1581731984530" />
+    <state width="1143" height="466" key="DebuggerActiveHint" timestamp="1582066791834">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state width="1143" height="466" key="DebuggerActiveHint/2560.0.2560.1440/67.27.2493.1413@67.27.2493.1413" timestamp="1582066791834" />
+    <state x="901" y="579" width="424" height="484" key="FileChooserDialogImpl" timestamp="1582066283261">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state x="901" y="579" width="424" height="484" key="FileChooserDialogImpl/2560.0.2560.1440/67.27.2493.1413@67.27.2493.1413" timestamp="1582066283261" />
+    <state x="687" y="438" width="424" height="492" key="FileChooserDialogImpl/67.27.1853.1052@67.27.1853.1052" timestamp="1581626942401" />
+    <state width="1299" height="291" key="GridCell.Tab.0.bottom" timestamp="1582073822979">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state width="1299" height="291" key="GridCell.Tab.0.bottom/2560.0.2560.1440/67.27.2493.1413@67.27.2493.1413" timestamp="1582073822979" />
+    <state width="1299" height="291" key="GridCell.Tab.0.center" timestamp="1582073822978">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state width="1299" height="291" key="GridCell.Tab.0.center/2560.0.2560.1440/67.27.2493.1413@67.27.2493.1413" timestamp="1582073822978" />
+    <state width="1299" height="291" key="GridCell.Tab.0.left" timestamp="1582073822978">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state width="1299" height="291" key="GridCell.Tab.0.left/2560.0.2560.1440/67.27.2493.1413@67.27.2493.1413" timestamp="1582073822978" />
+    <state width="1299" height="291" key="GridCell.Tab.0.right" timestamp="1582073822978">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state width="1299" height="291" key="GridCell.Tab.0.right/2560.0.2560.1440/67.27.2493.1413@67.27.2493.1413" timestamp="1582073822978" />
+    <state width="1299" height="291" key="GridCell.Tab.1.bottom" timestamp="1582073822979">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state width="1299" height="291" key="GridCell.Tab.1.bottom/2560.0.2560.1440/67.27.2493.1413@67.27.2493.1413" timestamp="1582073822979" />
+    <state width="1299" height="291" key="GridCell.Tab.1.center" timestamp="1582073822979">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state width="1299" height="291" key="GridCell.Tab.1.center/2560.0.2560.1440/67.27.2493.1413@67.27.2493.1413" timestamp="1582073822979" />
+    <state width="1299" height="291" key="GridCell.Tab.1.left" timestamp="1582073822979">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state width="1299" height="291" key="GridCell.Tab.1.left/2560.0.2560.1440/67.27.2493.1413@67.27.2493.1413" timestamp="1582073822979" />
+    <state width="1299" height="291" key="GridCell.Tab.1.right" timestamp="1582073822979">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state width="1299" height="291" key="GridCell.Tab.1.right/2560.0.2560.1440/67.27.2493.1413@67.27.2493.1413" timestamp="1582073822979" />
+    <state width="1299" height="291" key="GridCell.Tab.2.bottom" timestamp="1582073822979">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state width="1299" height="291" key="GridCell.Tab.2.bottom/2560.0.2560.1440/67.27.2493.1413@67.27.2493.1413" timestamp="1582073822979" />
+    <state width="1299" height="291" key="GridCell.Tab.2.center" timestamp="1582073822979">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state width="1299" height="291" key="GridCell.Tab.2.center/2560.0.2560.1440/67.27.2493.1413@67.27.2493.1413" timestamp="1582073822979" />
+    <state width="1299" height="291" key="GridCell.Tab.2.left" timestamp="1582073822979">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state width="1299" height="291" key="GridCell.Tab.2.left/2560.0.2560.1440/67.27.2493.1413@67.27.2493.1413" timestamp="1582073822979" />
+    <state width="1299" height="291" key="GridCell.Tab.2.right" timestamp="1582073822979">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state width="1299" height="291" key="GridCell.Tab.2.right/2560.0.2560.1440/67.27.2493.1413@67.27.2493.1413" timestamp="1582073822979" />
+    <state width="1299" height="291" key="GridCell.Tab.3.bottom" timestamp="1582073822980">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state width="1299" height="291" key="GridCell.Tab.3.bottom/2560.0.2560.1440/67.27.2493.1413@67.27.2493.1413" timestamp="1582073822980" />
+    <state width="1299" height="291" key="GridCell.Tab.3.center" timestamp="1582073822980">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state width="1299" height="291" key="GridCell.Tab.3.center/2560.0.2560.1440/67.27.2493.1413@67.27.2493.1413" timestamp="1582073822980" />
+    <state width="1299" height="291" key="GridCell.Tab.3.left" timestamp="1582073822980">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state width="1299" height="291" key="GridCell.Tab.3.left/2560.0.2560.1440/67.27.2493.1413@67.27.2493.1413" timestamp="1582073822980" />
+    <state width="1299" height="291" key="GridCell.Tab.3.right" timestamp="1582073822980">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state width="1299" height="291" key="GridCell.Tab.3.right/2560.0.2560.1440/67.27.2493.1413@67.27.2493.1413" timestamp="1582073822980" />
+    <state width="1299" height="291" key="GridCell.Tab.4.bottom" timestamp="1582073822980">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state width="1299" height="291" key="GridCell.Tab.4.bottom/2560.0.2560.1440/67.27.2493.1413@67.27.2493.1413" timestamp="1582073822980" />
+    <state width="1299" height="291" key="GridCell.Tab.4.center" timestamp="1582073822980">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state width="1299" height="291" key="GridCell.Tab.4.center/2560.0.2560.1440/67.27.2493.1413@67.27.2493.1413" timestamp="1582073822980" />
+    <state width="1299" height="291" key="GridCell.Tab.4.left" timestamp="1582073822980">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state width="1299" height="291" key="GridCell.Tab.4.left/2560.0.2560.1440/67.27.2493.1413@67.27.2493.1413" timestamp="1582073822980" />
+    <state width="1299" height="291" key="GridCell.Tab.4.right" timestamp="1582073822980">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state width="1299" height="291" key="GridCell.Tab.4.right/2560.0.2560.1440/67.27.2493.1413@67.27.2493.1413" timestamp="1582073822980" />
+    <state x="772" y="324" width="800" height="530" key="Rider.ProjectTemplateDialog.Size" timestamp="1582068419536">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state x="772" y="324" width="800" height="530" key="Rider.ProjectTemplateDialog.Size/2560.0.2560.1440/67.27.2493.1413@67.27.2493.1413" timestamp="1582068419536" />
+    <state x="591" y="240" width="800" height="538" key="Rider.ProjectTemplateDialog.Size/67.27.1853.1052@67.27.1853.1052" timestamp="1581805014058" />
+    <state x="904" y="445" width="430" height="597" key="RiderGenerateDialog" timestamp="1582072073094">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state x="904" y="445" width="430" height="597" key="RiderGenerateDialog/2560.0.2560.1440/67.27.2493.1413@67.27.2493.1413" timestamp="1582072073094" />
+    <state x="1063" y="280" width="419" height="660" key="RiderGenerateDialog/67.27.1853.1052@67.27.1853.1052" timestamp="1581971528093" />
+    <state x="439" y="201" width="1016" height="738" key="SettingsEditor" timestamp="1581637110571">
+      <screen x="67" y="27" width="1853" height="1052" />
+    </state>
+    <state x="439" y="201" width="1016" height="738" key="SettingsEditor/67.27.1853.1052@67.27.1853.1052" timestamp="1581637110571" />
+    <state x="906" y="385" width="683" height="764" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1581888861000">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state x="906" y="385" width="683" height="764" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/2560.0.2560.1440/67.27.2493.1413@67.27.2493.1413" timestamp="1581888861000" />
+  </component>
+</project>

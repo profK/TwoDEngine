@@ -1,0 +1,264 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/jeff/RiderProjects/TwoDEngine/SkiaGtkTests/SkiaGtkTests.csproj": {}
+  },
+  "projects": {
+    "/home/jeff/RiderProjects/TwoDEngine/ServiceRegistry/ServiceRegistry.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/jeff/RiderProjects/TwoDEngine/ServiceRegistry/ServiceRegistry.csproj",
+        "projectName": "ServiceRegistry",
+        "projectPath": "/home/jeff/RiderProjects/TwoDEngine/ServiceRegistry/ServiceRegistry.csproj",
+        "packagesPath": "/home/jeff/.nuget/packages/",
+        "outputPath": "/home/jeff/RiderProjects/TwoDEngine/ServiceRegistry/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/jeff/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/jeff/RiderProjects/TwoDEngine/SkiaGtkGraphicsProvider/SkiaGtkGraphicsProvider.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/jeff/RiderProjects/TwoDEngine/SkiaGtkGraphicsProvider/SkiaGtkGraphicsProvider.csproj",
+        "projectName": "SkiaGtkGraphicsProvider",
+        "projectPath": "/home/jeff/RiderProjects/TwoDEngine/SkiaGtkGraphicsProvider/SkiaGtkGraphicsProvider.csproj",
+        "packagesPath": "/home/jeff/.nuget/packages/",
+        "outputPath": "/home/jeff/RiderProjects/TwoDEngine/SkiaGtkGraphicsProvider/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/jeff/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/home/jeff/RiderProjects/TwoDEngine/ServiceRegistry/ServiceRegistry.csproj": {
+                "projectPath": "/home/jeff/RiderProjects/TwoDEngine/ServiceRegistry/ServiceRegistry.csproj"
+              },
+              "/home/jeff/RiderProjects/TwoDEngine/TwoDEngineCore/TwoDEngineCore.csproj": {
+                "projectPath": "/home/jeff/RiderProjects/TwoDEngine/TwoDEngineCore/TwoDEngineCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "GtkSharp": {
+              "target": "Package",
+              "version": "[3.22.25.56, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "SkiaSharp": {
+              "target": "Package",
+              "version": "[1.68.1.1, )"
+            },
+            "SkiaSharp.NativeAssets.Linux": {
+              "target": "Package",
+              "version": "[1.68.1.1, )"
+            },
+            "SkiaSharp.Views.Gtk3": {
+              "target": "Package",
+              "version": "[1.68.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/jeff/RiderProjects/TwoDEngine/SkiaGtkTests/SkiaGtkTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/jeff/RiderProjects/TwoDEngine/SkiaGtkTests/SkiaGtkTests.csproj",
+        "projectName": "SkiaGtkTests",
+        "projectPath": "/home/jeff/RiderProjects/TwoDEngine/SkiaGtkTests/SkiaGtkTests.csproj",
+        "packagesPath": "/home/jeff/.nuget/packages/",
+        "outputPath": "/home/jeff/RiderProjects/TwoDEngine/SkiaGtkTests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/jeff/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/home/jeff/RiderProjects/TwoDEngine/SkiaGtkGraphicsProvider/SkiaGtkGraphicsProvider.csproj": {
+                "projectPath": "/home/jeff/RiderProjects/TwoDEngine/SkiaGtkGraphicsProvider/SkiaGtkGraphicsProvider.csproj"
+              },
+              "/home/jeff/RiderProjects/TwoDEngine/TwoDEngineCore/TwoDEngineCore.csproj": {
+                "projectPath": "/home/jeff/RiderProjects/TwoDEngine/TwoDEngineCore/TwoDEngineCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.15.1, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/jeff/RiderProjects/TwoDEngine/TwoDEngineCore/TwoDEngineCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/jeff/RiderProjects/TwoDEngine/TwoDEngineCore/TwoDEngineCore.csproj",
+        "projectName": "TwoDEngineCore",
+        "projectPath": "/home/jeff/RiderProjects/TwoDEngine/TwoDEngineCore/TwoDEngineCore.csproj",
+        "packagesPath": "/home/jeff/.nuget/packages/",
+        "outputPath": "/home/jeff/RiderProjects/TwoDEngine/TwoDEngineCore/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/jeff/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "System.Numerics.Vectors": {
+              "target": "Package",
+              "version": "[4.6.0-preview5.19224.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

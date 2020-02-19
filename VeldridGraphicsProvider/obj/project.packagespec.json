@@ -1,0 +1,84 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/home/jeff/RiderProjects/TwoDEngine/VeldridGraphicsProvider/VeldridGraphicsProvider.csproj",
+    "projectName": "VeldridGraphicsProvider",
+    "projectPath": "/home/jeff/RiderProjects/TwoDEngine/VeldridGraphicsProvider/VeldridGraphicsProvider.csproj",
+    "outputPath": "/home/jeff/RiderProjects/TwoDEngine/VeldridGraphicsProvider/obj/",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netcoreapp3.1"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "projectReferences": {
+          "/home/jeff/RiderProjects/TwoDEngine/TwoDEngineCore/TwoDEngineCore.csproj": {
+            "projectPath": "/home/jeff/RiderProjects/TwoDEngine/TwoDEngineCore/TwoDEngineCore.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp3.1": {
+      "dependencies": {
+        "Microsoft.NET.Test.Sdk": {
+          "target": "Package",
+          "version": "[16.5.0, )"
+        },
+        "SDL": {
+          "target": "Package",
+          "version": "[1.2.15.16, )"
+        },
+        "Veldrid": {
+          "target": "Package",
+          "version": "[4.7.0, )"
+        },
+        "Veldrid.SDL2": {
+          "target": "Package",
+          "version": "[4.7.0, )"
+        },
+        "Veldrid.SPIRV": {
+          "target": "Package",
+          "version": "[1.0.13, )"
+        },
+        "Veldrid.StartupUtilities": {
+          "target": "Package",
+          "version": "[4.7.0, )"
+        },
+        "xunit": {
+          "target": "Package",
+          "version": "[2.4.1, )"
+        },
+        "xunit.runner.visualstudio": {
+          "target": "Package",
+          "version": "[2.4.1, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true,
+      "frameworkReferences": {
+        "Microsoft.NETCore.App": {
+          "privateAssets": "all"
+        }
+      },
+      "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+    }
+  }
+}

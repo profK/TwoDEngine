@@ -1,0 +1,13 @@
+/home/jeff/RiderProjects/TwoDEngine/TDEGui/bin/Debug/netcoreapp3.1/TDEGui.deps.json
+/home/jeff/RiderProjects/TwoDEngine/TDEGui/bin/Debug/netcoreapp3.1/TDEGui.dll
+/home/jeff/RiderProjects/TwoDEngine/TDEGui/bin/Debug/netcoreapp3.1/TDEGui.pdb
+/home/jeff/RiderProjects/TwoDEngine/TDEGui/obj/Debug/netcoreapp3.1/TDEGui.csprojAssemblyReference.cache
+/home/jeff/RiderProjects/TwoDEngine/TDEGui/obj/Debug/netcoreapp3.1/TDEGui.AssemblyInfoInputs.cache
+/home/jeff/RiderProjects/TwoDEngine/TDEGui/obj/Debug/netcoreapp3.1/TDEGui.AssemblyInfo.cs
+/home/jeff/RiderProjects/TwoDEngine/TDEGui/obj/Debug/netcoreapp3.1/TDEGui.dll
+/home/jeff/RiderProjects/TwoDEngine/TDEGui/obj/Debug/netcoreapp3.1/TDEGui.pdb
+/home/jeff/RiderProjects/TwoDEngine/TDEGui/bin/Debug/netcoreapp3.1/ServiceRegistry.dll
+/home/jeff/RiderProjects/TwoDEngine/TDEGui/bin/Debug/netcoreapp3.1/TwoDEngineCore.dll
+/home/jeff/RiderProjects/TwoDEngine/TDEGui/bin/Debug/netcoreapp3.1/ServiceRegistry.pdb
+/home/jeff/RiderProjects/TwoDEngine/TDEGui/bin/Debug/netcoreapp3.1/TwoDEngineCore.pdb
+/home/jeff/RiderProjects/TwoDEngine/TDEGui/obj/Debug/netcoreapp3.1/TDEGui.csproj.CopyComplete

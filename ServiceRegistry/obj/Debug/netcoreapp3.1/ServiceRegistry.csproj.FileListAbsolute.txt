@@ -1,0 +1,8 @@
+/home/jeff/RiderProjects/TwoDEngine/ServiceRegistry/bin/Debug/netcoreapp3.1/ServiceRegistry.deps.json
+/home/jeff/RiderProjects/TwoDEngine/ServiceRegistry/bin/Debug/netcoreapp3.1/ServiceRegistry.dll
+/home/jeff/RiderProjects/TwoDEngine/ServiceRegistry/bin/Debug/netcoreapp3.1/ServiceRegistry.pdb
+/home/jeff/RiderProjects/TwoDEngine/ServiceRegistry/obj/Debug/netcoreapp3.1/ServiceRegistry.csprojAssemblyReference.cache
+/home/jeff/RiderProjects/TwoDEngine/ServiceRegistry/obj/Debug/netcoreapp3.1/ServiceRegistry.AssemblyInfoInputs.cache
+/home/jeff/RiderProjects/TwoDEngine/ServiceRegistry/obj/Debug/netcoreapp3.1/ServiceRegistry.AssemblyInfo.cs
+/home/jeff/RiderProjects/TwoDEngine/ServiceRegistry/obj/Debug/netcoreapp3.1/ServiceRegistry.dll
+/home/jeff/RiderProjects/TwoDEngine/ServiceRegistry/obj/Debug/netcoreapp3.1/ServiceRegistry.pdb

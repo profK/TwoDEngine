@@ -1,0 +1,58 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "TDEGui/1.0.0": {
+        "dependencies": {
+          "ServiceRegistry": "1.0.0",
+          "TwoDEngineCore": "1.0.0"
+        },
+        "runtime": {
+          "TDEGui.dll": {}
+        }
+      },
+      "System.Numerics.Vectors/4.6.0-preview5.19224.8": {},
+      "ServiceRegistry/1.0.0": {
+        "runtime": {
+          "ServiceRegistry.dll": {}
+        }
+      },
+      "TwoDEngineCore/1.0.0": {
+        "dependencies": {
+          "System.Numerics.Vectors": "4.6.0-preview5.19224.8"
+        },
+        "runtime": {
+          "TwoDEngineCore.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TDEGui/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Numerics.Vectors/4.6.0-preview5.19224.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-W3rBTrGme5c2Eh4cgn0N7pQCV3Rn8+tX4VDPnXj8X9ZMVD4dVaNytnsovrJ1EVN+OWtyRfHq5nCTI84xqnYt5g==",
+      "path": "system.numerics.vectors/4.6.0-preview5.19224.8",
+      "hashPath": "system.numerics.vectors.4.6.0-preview5.19224.8.nupkg.sha512"
+    },
+    "ServiceRegistry/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TwoDEngineCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

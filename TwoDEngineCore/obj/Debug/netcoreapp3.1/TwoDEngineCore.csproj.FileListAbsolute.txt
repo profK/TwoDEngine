@@ -1,0 +1,11 @@
+/home/jeff/RiderProjects/TwoDEngine/TwoDEngineCore/bin/Debug/netcoreapp3.1/TwoDEngineCore.deps.json
+/home/jeff/RiderProjects/TwoDEngine/TwoDEngineCore/bin/Debug/netcoreapp3.1/TwoDEngineCore.dll
+/home/jeff/RiderProjects/TwoDEngine/TwoDEngineCore/bin/Debug/netcoreapp3.1/TwoDEngineCore.pdb
+/home/jeff/RiderProjects/TwoDEngine/TwoDEngineCore/bin/Debug/netcoreapp3.1/WWFramework.dll
+/home/jeff/RiderProjects/TwoDEngine/TwoDEngineCore/bin/Debug/netcoreapp3.1/WWFramework.pdb
+/home/jeff/RiderProjects/TwoDEngine/TwoDEngineCore/obj/Debug/netcoreapp3.1/TwoDEngineCore.csprojAssemblyReference.cache
+/home/jeff/RiderProjects/TwoDEngine/TwoDEngineCore/obj/Debug/netcoreapp3.1/TwoDEngineCore.AssemblyInfoInputs.cache
+/home/jeff/RiderProjects/TwoDEngine/TwoDEngineCore/obj/Debug/netcoreapp3.1/TwoDEngineCore.AssemblyInfo.cs
+/home/jeff/RiderProjects/TwoDEngine/TwoDEngineCore/obj/Debug/netcoreapp3.1/TwoDEngineCore.csproj.CopyComplete
+/home/jeff/RiderProjects/TwoDEngine/TwoDEngineCore/obj/Debug/netcoreapp3.1/TwoDEngineCore.dll
+/home/jeff/RiderProjects/TwoDEngine/TwoDEngineCore/obj/Debug/netcoreapp3.1/TwoDEngineCore.pdb
