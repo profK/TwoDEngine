@@ -15,11 +15,18 @@ namespace TwoDEngineCore
         public IDrawspace GetDrawspace(IRect2D subRect);
 
         public void Start();
+        
+        public IMatrix2D GetIdentityXForm();
+
+        public IMatrix2D GetRotationXform(float degrees);
+
+        public IMatrix2D GetTranslationXform(IPoint2D translation);
 
         
         public IImage LoadImage(string path);
 
-
        
+
+
     }
 }

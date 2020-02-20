@@ -52,14 +52,7 @@ namespace SkiaGraphicsProvider
             OnGraphicsInit?.Invoke(this);
             Application.Run();
         }
-
-       
-
-
-        public void Clear()
-        {
-            throw new System.NotImplementedException();
-        }
+        
 
         public IDrawspace GetDrawspace(IRect2D subRect)
         {
@@ -73,22 +66,29 @@ namespace SkiaGraphicsProvider
 
         public event Action<IGraphicsProvider> OnGraphicsInit;
 
+        #region Geometry Factory
 
-        public void PushClip(IRect2D cipRect)
+        public IMatrix2D GetIdentityXForm()
         {
-            throw new System.NotImplementedException();
+            return new Matrix2D(SKMatrix.MakeIdentity());
         }
 
-        public IRect2D PopClip()
+        public IMatrix2D GetRotationXform(float degrees)
         {
-            throw new System.NotImplementedException();
+            return new Matrix2D(SKMatrix.MakeRotation(DegreesToRads(degrees)));
         }
 
-        ~GraphicsProvider()
+
+        public IMatrix2D GetTranslationXform(IPoint2D translation)
         {
-            
+            return new Matrix2D(SKMatrix.MakeTranslation(translation.X,translation.Y));
+        }
+        
+        public static float DegreesToRads(float degrees)
+        {
+            return (float)(Math.PI * degrees / 180);
         }
 
-       
+        #endregion
     }
 }

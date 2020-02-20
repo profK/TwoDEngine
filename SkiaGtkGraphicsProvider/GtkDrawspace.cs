@@ -14,6 +14,14 @@ using Image = SkiaGraphicsProvider.Assets.Image;
 namespace SkiaGraphicsProvider
 {
    
+    /// <summary>
+    /// This implements the actual drawing functions ontop of GTK based Skia
+    /// of note is the use of Canvas.Save and Canvas.Restore()
+    /// Although this saves many things, most of them such as transform matrix are
+    /// externally settable.  The notable exception is the Clipping rectangle which is ONLY
+    /// subtractable.  The only way to reset it is to use the canvas save and restore, so we use it
+    /// for that purpose and only that purpose in this API
+    /// </summary>
     public class GtkDrawspace:IDrawspace
     {
         private Window _window;
@@ -23,9 +31,10 @@ namespace SkiaGraphicsProvider
         private SKTextAlign[] TEXTALIGN = new SKTextAlign[3];
         private SKSize _scaledSize;
         
+        private Stack<SKMatrix> _xformStack = new Stack<SKMatrix>();
+        
         public GtkDrawspace(Rect2D subrect)
         {
-            
             _window = new Window("Drawspace");
             _window.DeleteEvent += OnWindowDeleteEvent;
             _window.SetDefaultSize((int)subrect.Size.X,(int)subrect.Size.Y);
@@ -35,10 +44,12 @@ namespace SkiaGraphicsProvider
             _skiaView.Show();
             _window.Child = _skiaView;
             _lastPaintTime = DateTime.Now.Ticks / TimeSpan.TicksPerMillisecond;
-            TEXTALIGN[(int)IDrawspace.HORIZONTAL_ALIGNMENT.LEFT] = SKTextAlign.Left;
+            TEXTALIGN[(int)IDrawspace.HORIZONTAL_ALIGNMENT.LEFT]= SKTextAlign.Left;
             TEXTALIGN[(int)IDrawspace.HORIZONTAL_ALIGNMENT.CENTER] = SKTextAlign.Center;
             TEXTALIGN[(int)IDrawspace.HORIZONTAL_ALIGNMENT.RIGHT]= SKTextAlign.Right;
             _skiaView.PaintSurface += OnPaintSurface;
+            // init matrix stack
+            _xformStack.Push(SKMatrix.MakeIdentity());
             _window.ShowAll();
         }
 
@@ -50,6 +61,8 @@ namespace SkiaGraphicsProvider
             
             // the the canvas and properties
             _currentCanvas = e.Surface.Canvas;
+            //save the root state
+            
 
             // get the screen density for scaling
             var scale = 1f;
@@ -68,8 +81,33 @@ namespace SkiaGraphicsProvider
         {
            //TODO dispase stuff
         }
-        
-        
+
+
+        public void PushTransform(IMatrix2D xform)
+        {
+            _xformStack.Push(((Matrix2D)xform)._skMatrix);
+        }
+
+        public IMatrix2D PopTransform()
+        {
+           return new Matrix2D(_xformStack.Pop());
+        }
+
+        public IMatrix2D PeekTransform()
+        {
+            return new Matrix2D(_xformStack.Peek());
+        }
+
+        public void PushClip(IRect2D rect)
+        {
+            _currentCanvas.Save();
+            _currentCanvas.ClipRect(((Rect2D)rect)._SkRect);
+        }
+
+        public void PopClip()
+        {
+            _currentCanvas.Restore();
+        }
 
         public void DrawText(string text, IPoint2D position, int size=24, uint color=0xFF000000,
             IDrawspace.HORIZONTAL_ALIGNMENT align=IDrawspace.HORIZONTAL_ALIGNMENT.CENTER)
@@ -95,13 +133,14 @@ namespace SkiaGraphicsProvider
                 Color = new SKColor(0xFF,0xFF,0xFF,alpha),
                 IsAntialias = true
             };
-            
+            _currentCanvas.SetMatrix(_xformStack.Peek());
             _currentCanvas.DrawBitmap(((Image)image).bitMap,
                 ((Rect2D)source).ToSkia(),((Rect2D)destination).ToSkia());
         }
 
         public void DrawImage(IImage image, IPoint2D position,byte alpha=0xFF)
         {
+            _currentCanvas.SetMatrix(_xformStack.Peek());
             DrawImage(image,new Rect2D(0,0,image.Size.X,image.Size.Y),
                 new Rect2D(position.X,position.Y,image.Size.X,image.Size.Y),
                 alpha);

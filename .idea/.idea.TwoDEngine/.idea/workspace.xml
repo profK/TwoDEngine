@@ -1,19 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="218c8e6d-5e85-461d-8d37-8c4a20022da7" name="Default Changelist" comment="" />
+    <list default="true" id="218c8e6d-5e85-461d-8d37-8c4a20022da7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TwoDEngine/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TwoDEngine/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TwoDEngine/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TwoDEngine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TwoDEngine/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServiceRegistry/obj/Debug/netcoreapp3.1/ServiceRegistry.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceRegistry/obj/Debug/netcoreapp3.1/ServiceRegistry.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkiaGtkGraphicsProvider/GraphicsProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SkiaGtkGraphicsProvider/GraphicsProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkiaGtkGraphicsProvider/GtkDrawspace.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SkiaGtkGraphicsProvider/GtkDrawspace.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkiaGtkGraphicsProvider/SkiaTypeHelpers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SkiaGtkGraphicsProvider/SkiaTypeHelpers.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkiaGtkGraphicsProvider/bin/Debug/netcoreapp3.1/SkiaGtkGraphicsProvider.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SkiaGtkGraphicsProvider/bin/Debug/netcoreapp3.1/SkiaGtkGraphicsProvider.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkiaGtkGraphicsProvider/bin/Debug/netcoreapp3.1/SkiaGtkGraphicsProvider.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SkiaGtkGraphicsProvider/bin/Debug/netcoreapp3.1/SkiaGtkGraphicsProvider.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkiaGtkGraphicsProvider/bin/Debug/netcoreapp3.1/TwoDEngineCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SkiaGtkGraphicsProvider/bin/Debug/netcoreapp3.1/TwoDEngineCore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkiaGtkGraphicsProvider/bin/Debug/netcoreapp3.1/TwoDEngineCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SkiaGtkGraphicsProvider/bin/Debug/netcoreapp3.1/TwoDEngineCore.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkiaGtkGraphicsProvider/obj/Debug/netcoreapp3.1/SkiaGtkGraphicsProvider.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SkiaGtkGraphicsProvider/obj/Debug/netcoreapp3.1/SkiaGtkGraphicsProvider.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkiaGtkGraphicsProvider/obj/Debug/netcoreapp3.1/SkiaGtkGraphicsProvider.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SkiaGtkGraphicsProvider/obj/Debug/netcoreapp3.1/SkiaGtkGraphicsProvider.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkiaGtkGraphicsProvider/obj/Debug/netcoreapp3.1/SkiaGtkGraphicsProvider.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SkiaGtkGraphicsProvider/obj/Debug/netcoreapp3.1/SkiaGtkGraphicsProvider.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkiaGtkTests/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SkiaGtkTests/UnitTest1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkiaGtkTests/bin/Debug/netcoreapp3.1/SkiaGtkGraphicsProvider.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SkiaGtkTests/bin/Debug/netcoreapp3.1/SkiaGtkGraphicsProvider.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkiaGtkTests/bin/Debug/netcoreapp3.1/SkiaGtkGraphicsProvider.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SkiaGtkTests/bin/Debug/netcoreapp3.1/SkiaGtkGraphicsProvider.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkiaGtkTests/bin/Debug/netcoreapp3.1/SkiaGtkTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SkiaGtkTests/bin/Debug/netcoreapp3.1/SkiaGtkTests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkiaGtkTests/bin/Debug/netcoreapp3.1/SkiaGtkTests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SkiaGtkTests/bin/Debug/netcoreapp3.1/SkiaGtkTests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkiaGtkTests/bin/Debug/netcoreapp3.1/TwoDEngineCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SkiaGtkTests/bin/Debug/netcoreapp3.1/TwoDEngineCore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkiaGtkTests/bin/Debug/netcoreapp3.1/TwoDEngineCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SkiaGtkTests/bin/Debug/netcoreapp3.1/TwoDEngineCore.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkiaGtkTests/bin/Debug/netcoreapp3.1/nunit_random_seed.tmp" beforeDir="false" afterPath="$PROJECT_DIR$/SkiaGtkTests/bin/Debug/netcoreapp3.1/nunit_random_seed.tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkiaGtkTests/obj/Debug/netcoreapp3.1/SkiaGtkTests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SkiaGtkTests/obj/Debug/netcoreapp3.1/SkiaGtkTests.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkiaGtkTests/obj/Debug/netcoreapp3.1/SkiaGtkTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SkiaGtkTests/obj/Debug/netcoreapp3.1/SkiaGtkTests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkiaGtkTests/obj/Debug/netcoreapp3.1/SkiaGtkTests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SkiaGtkTests/obj/Debug/netcoreapp3.1/SkiaGtkTests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TDEGui/bin/Debug/netcoreapp3.1/TwoDEngineCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TDEGui/bin/Debug/netcoreapp3.1/TwoDEngineCore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TDEGui/bin/Debug/netcoreapp3.1/TwoDEngineCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TDEGui/bin/Debug/netcoreapp3.1/TwoDEngineCore.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TDEGui/obj/Debug/netcoreapp3.1/TDEGui.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TDEGui/obj/Debug/netcoreapp3.1/TDEGui.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwoDEngineCore/Geometry/Matrix2D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SkiaGtkGraphicsProvider/Geometry/Matrix2D.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwoDEngineCore/Geometry/Point2D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SkiaGtkGraphicsProvider/Geometry/Point2D.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwoDEngineCore/Geometry/Rect2D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SkiaGtkGraphicsProvider/Geometry/Rect2D.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwoDEngineCore/IDrawspace.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TwoDEngineCore/IDrawspace.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwoDEngineCore/IGraphicsProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TwoDEngineCore/IGraphicsProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwoDEngineCore/bin/Debug/netcoreapp3.1/TwoDEngineCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TwoDEngineCore/bin/Debug/netcoreapp3.1/TwoDEngineCore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwoDEngineCore/bin/Debug/netcoreapp3.1/TwoDEngineCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TwoDEngineCore/bin/Debug/netcoreapp3.1/TwoDEngineCore.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwoDEngineCore/obj/Debug/netcoreapp3.1/TwoDEngineCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TwoDEngineCore/obj/Debug/netcoreapp3.1/TwoDEngineCore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwoDEngineCore/obj/Debug/netcoreapp3.1/TwoDEngineCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TwoDEngineCore/obj/Debug/netcoreapp3.1/TwoDEngineCore.pdb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/TwoDEngineCore/IGraphicsProvider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TwoDEngineCore/IDrawspace.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SkiaGtkGraphicsProvider/Class1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SkiaGtkGraphicsProvider/GraphicsProvider.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TwoDEngineCore/Geometry/Matrix2D.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TwoDEngineCore/Geometry/Point2D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SkiaGtkGraphicsProvider/Geometry/Matrix2D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SkiaGtkGraphicsProvider/Geometry/Point2D.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C3DB721F-BCFE-4A68-8B40-FB6793FB378C/2A/ShaderDescription.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TwoDEngineCore/Assets/IText.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TwoDEngineCore/IPaintable.cs" root0="FORCE_HIGHLIGHTING" />
@@ -35,7 +76,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D9520D18-552C-4A97-8D0C-2197CE6B4DD0/82/26efcc1f/Application.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VeldridGraphicsProvider/Assets/Image.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TwoDEngineCore/Assets/IImage.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TwoDEngineCore/Geometry/Rect2D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SkiaGtkGraphicsProvider/Geometry/Rect2D.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TDEGui/Class1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TwoDEngineCore/IMatrix2D.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/12324552-F778-4FC6-B997-AB8109B78FB3/3/WindowCreateInfo.cs" root0="SKIP_HIGHLIGHTING" />
@@ -45,8 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/TwoDEngineCore/DrawSpace.cs" />
-        <option value="$PROJECT_DIR$/TwoDEngineCore/IPoint2D.cs" />
         <option value="$PROJECT_DIR$/TwoDEngineCore/IMatrix2D.cs" />
         <option value="$PROJECT_DIR$/SkiaGraphicsProvider/Geometry/Matrix2D.cs" />
         <option value="$PROJECT_DIR$/TwoDEngineCore/Tests/TestFixture.cs" />
@@ -83,7 +122,6 @@
         <option value="$PROJECT_DIR$/SkiaGTKTests/Class1.cs" />
         <option value="$PROJECT_DIR$/SkiaGTKTests/Tests/GraphicsProviderTests.cs" />
         <option value="$PROJECT_DIR$/TwoDEngineCore/Geometry/Rect2D.cs" />
-        <option value="$PROJECT_DIR$/SkiaGtkGraphicsProvider/SkiaTypeHelpers.cs" />
         <option value="$PROJECT_DIR$/TwoDEngineCore/Assets/IImage.cs" />
         <option value="$PROJECT_DIR$/SkiaGtkGraphicsProvider/Assets/Image.cs" />
         <option value="$PROJECT_DIR$/ServiceRegistry/Class1.cs" />
@@ -91,11 +129,14 @@
         <option value="$PROJECT_DIR$/TDEGui/IGUIService.cs" />
         <option value="$PROJECT_DIR$/TDEGui/GUIService.cs" />
         <option value="$PROJECT_DIR$/ServiceRegistry/IService.cs" />
+        <option value="$PROJECT_DIR$/SkiaGtkGraphicsProvider/SkiaTypeHelpers.cs" />
+        <option value="$PROJECT_DIR$/SkiaGtkGraphicsProvider/Geometry/Matrix2D.cs" />
+        <option value="$PROJECT_DIR$/SkiaGtkGraphicsProvider/GraphicsProvider.cs" />
+        <option value="$PROJECT_DIR$/SkiaGtkGraphicsProvider/Geometry/Rect2D.cs" />
+        <option value="$PROJECT_DIR$/SkiaGtkGraphicsProvider/GtkDrawspace.cs" />
         <option value="$PROJECT_DIR$/TwoDEngineCore/IGraphicsProvider.cs" />
         <option value="$PROJECT_DIR$/TwoDEngineCore/IDrawspace.cs" />
-        <option value="$PROJECT_DIR$/SkiaGtkGraphicsProvider/GtkDrawspace.cs" />
         <option value="$PROJECT_DIR$/SkiaGtkTests/UnitTest1.cs" />
-        <option value="$PROJECT_DIR$/SkiaGtkGraphicsProvider/GraphicsProvider.cs" />
       </list>
     </option>
   </component>
@@ -107,6 +148,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/workspaces/Veldrid/veldrid-samples/src/Veldrid.Samples.sln" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -162,6 +204,11 @@
       <workItem from="1581986432408" duration="8719000" />
       <workItem from="1582055346443" duration="16660000" />
       <workItem from="1582073900936" duration="725000" />
+      <workItem from="1582140589485" duration="60000" />
+      <workItem from="1582140768410" duration="3654000" />
+      <workItem from="1582151244972" duration="2839000" />
+      <workItem from="1582159741749" duration="1256000" />
+      <workItem from="1582163709942" duration="4376000" />
     </task>
     <servers />
   </component>
@@ -170,6 +217,19 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="436" y="169" width="769" height="561" key="#LinuxApp" timestamp="1581804632088">
       <screen x="67" y="27" width="1853" height="1052" />
@@ -274,11 +334,11 @@
     </state>
     <state x="772" y="324" width="800" height="530" key="Rider.ProjectTemplateDialog.Size/2560.0.2560.1440/67.27.2493.1413@67.27.2493.1413" timestamp="1582068419536" />
     <state x="591" y="240" width="800" height="538" key="Rider.ProjectTemplateDialog.Size/67.27.1853.1052@67.27.1853.1052" timestamp="1581805014058" />
-    <state x="904" y="445" width="430" height="597" key="RiderGenerateDialog" timestamp="1582072073094">
+    <state x="904" y="445" width="430" height="597" key="RiderGenerateDialog" timestamp="1582170806040">
       <screen x="67" y="27" width="2493" height="1413" />
     </state>
-    <state x="904" y="445" width="430" height="597" key="RiderGenerateDialog/2560.0.2560.1440/67.27.2493.1413@67.27.2493.1413" timestamp="1582072073094" />
-    <state x="1063" y="280" width="419" height="660" key="RiderGenerateDialog/67.27.1853.1052@67.27.1853.1052" timestamp="1581971528093" />
+    <state x="904" y="445" width="430" height="597" key="RiderGenerateDialog/2560.0.2560.1440/67.27.2493.1413@67.27.2493.1413" timestamp="1582170806040" />
+    <state x="1063" y="256" width="419" height="660" key="RiderGenerateDialog/67.27.1853.1052@67.27.1853.1052" timestamp="1582143410986" />
     <state x="439" y="201" width="1016" height="738" key="SettingsEditor" timestamp="1581637110571">
       <screen x="67" y="27" width="1853" height="1052" />
     </state>
@@ -287,5 +347,50 @@
       <screen x="67" y="27" width="2493" height="1413" />
     </state>
     <state x="906" y="385" width="683" height="764" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/2560.0.2560.1440/67.27.2493.1413@67.27.2493.1413" timestamp="1581888861000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SkiaGtkTests/UnitTest1.cs</url>
+          <line>27</line>
+          <properties documentPath="$PROJECT_DIR$/SkiaGtkTests/UnitTest1.cs" initialLine="27">
+            <startOffsets>
+              <option value="526" />
+            </startOffsets>
+            <endOffsets>
+              <option value="576" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SkiaGtkGraphicsProvider/GraphicsProvider.cs</url>
+          <line>53</line>
+          <properties documentPath="$PROJECT_DIR$/SkiaGtkGraphicsProvider/GraphicsProvider.cs" initialLine="53">
+            <startOffsets>
+              <option value="1155" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1156" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SkiaGtkTests/UnitTest1.cs</url>
+          <line>31</line>
+          <properties documentPath="$PROJECT_DIR$/SkiaGtkTests/UnitTest1.cs" initialLine="31">
+            <startOffsets>
+              <option value="728" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1317" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

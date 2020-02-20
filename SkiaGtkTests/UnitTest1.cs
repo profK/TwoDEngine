@@ -32,9 +32,14 @@ namespace SkiaGtkTests
                 ds.OnPaint += (space, time) =>
                 {
                     ds.DrawImage(tup,new Point2D(0,0));
+                    space.PushClip(new Rect2D(100,100,600,400));
+                    space.PushTransform(gp.GetRotationXform(30));
+                    ds.DrawImage(tup,new Point2D(0,0));
                     ds.DrawImage(tup,new Rect2D(0,0,tup.Size.X/2,tup.Size.Y),
                         new Rect2D(100,100,200,200));
                     ds.DrawText("text test", new Point2D(100,100));
+                    space.PopTransform();
+                    space.PopClip();
                 };
                 
             };

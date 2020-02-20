@@ -29,6 +29,11 @@
           <e p="Image.cs" t="Include" />
         </e>
         <e p="Class1.cs" t="Include" />
+        <e p="Geometry" t="Include">
+          <e p="Matrix2D.cs" t="Include" />
+          <e p="Point2D.cs" t="Include" />
+          <e p="Rect2D.cs" t="Include" />
+        </e>
         <e p="GraphicsProvider.cs" t="Include" />
         <e p="GtkDrawspace.cs" t="Include" />
         <e p="SkiaGtkGraphicsProvider.csproj" t="IncludeRecursive" />
@@ -78,11 +83,6 @@
           <e p="IText.cs" t="Include" />
         </e>
         <e p="Class1.cs" t="Include" />
-        <e p="Geometry" t="Include">
-          <e p="Matrix2D.cs" t="Include" />
-          <e p="Point2D.cs" t="Include" />
-          <e p="Rect2D.cs" t="Include" />
-        </e>
         <e p="IDrawspace.cs" t="Include" />
         <e p="IGraphicsProvider.cs" t="Include" />
         <e p="IMatrix2D.cs" t="Include" />
