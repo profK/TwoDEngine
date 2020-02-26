@@ -2,6 +2,6 @@ namespace TwoDEngineCore
 {
     public interface IPaintable
     {
-        void Paint(long lastPaintTime);
+        void Paint(IDrawspace drawspace);
     }
 }

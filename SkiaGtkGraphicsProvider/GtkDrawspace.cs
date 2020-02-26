@@ -32,9 +32,14 @@ namespace SkiaGraphicsProvider
         private SKSize _scaledSize;
         
         private Stack<SKMatrix> _xformStack = new Stack<SKMatrix>();
+        private long _lastPaintTime;
         
-        public GtkDrawspace(Rect2D subrect)
+        public IGraphicsProvider Provider { get; private set; }
+        
+        public GtkDrawspace(GraphicsProvider provider, Rect2D subrect)
         {
+            Provider = provider;
+            _lastPaintTime = DateTime.Now.Ticks / TimeSpan.TicksPerMillisecond;
             _window = new Window("Drawspace");
             _window.DeleteEvent += OnWindowDeleteEvent;
             _window.SetDefaultSize((int)subrect.Size.X,(int)subrect.Size.Y);
@@ -43,7 +48,7 @@ namespace SkiaGraphicsProvider
             _skiaView.PaintSurface += OnPaintSurface;
             _skiaView.Show();
             _window.Child = _skiaView;
-            _lastPaintTime = DateTime.Now.Ticks / TimeSpan.TicksPerMillisecond;
+           
             TEXTALIGN[(int)IDrawspace.HORIZONTAL_ALIGNMENT.LEFT]= SKTextAlign.Left;
             TEXTALIGN[(int)IDrawspace.HORIZONTAL_ALIGNMENT.CENTER] = SKTextAlign.Center;
             TEXTALIGN[(int)IDrawspace.HORIZONTAL_ALIGNMENT.RIGHT]= SKTextAlign.Right;
@@ -53,7 +58,7 @@ namespace SkiaGraphicsProvider
             _window.ShowAll();
         }
 
-        private long _lastPaintTime;
+        
         #nullable enable
         private void OnPaintSurface(object? sender, SKPaintSurfaceEventArgs e)
 #nullable disable
@@ -71,10 +76,8 @@ namespace SkiaGraphicsProvider
             // handle the device screen density
             _currentCanvas.Scale(scale);
             
-            long currentTime =  DateTime.Now.Ticks / TimeSpan.TicksPerMillisecond;
-            OnPaint?.Invoke(this,currentTime-_lastPaintTime);
-            _lastPaintTime = currentTime;
-
+           
+            OnPaint?.Invoke(this);
         }
 
         private void OnWindowDeleteEvent(object o, DeleteEventArgs args)
@@ -109,10 +112,11 @@ namespace SkiaGraphicsProvider
             _currentCanvas.Restore();
         }
 
-        public void DrawText(string text, IPoint2D position, int size=24, uint color=0xFF000000,
+        public void DrawText(string text, IFont font, uint color=0xFF000000,
             IDrawspace.HORIZONTAL_ALIGNMENT align=IDrawspace.HORIZONTAL_ALIGNMENT.CENTER)
         {
             SKColor skColor = new SKColor(color);
+            Font fnt = (Font) font;
             // draw some text
             var paint = new SKPaint
             {
@@ -120,7 +124,7 @@ namespace SkiaGraphicsProvider
                 IsAntialias = true,
                 Style = SKPaintStyle.Fill,
                 TextAlign = TEXTALIGN[(int)align],
-                TextSize = size
+                TextSize = fnt.skPaint.TextSize
             };
             var coord = new SKPoint(_scaledSize.Width / 2, (_scaledSize.Height + paint.TextSize) / 2);
             _currentCanvas.DrawText(text, coord, paint);
@@ -146,11 +150,37 @@ namespace SkiaGraphicsProvider
                 alpha);
         }
 
-        public IPoint2D Position { get; }
-        public IPoint2D Size { get; }
-        
-      
-        public event Action<IDrawspace,long> OnPaint;
+        public IPoint2D Position
+        {
+            get
+            {
+                int x, y;
+                _window.GetPosition(out x, out y);
+                return new Point2D(x,y);
+                
+            }
+            set
+            {
+                _window.Move((int)value.X,(int)value.Y);
+            }
+        }
+
+        public IPoint2D Size
+        {
+            get
+            {
+                int x, y;
+                _window.GetSize(out x,out y);
+                return new Point2D(x,y);
+            }
+            set
+            {
+                _window.Resize((int)value.X,(int)value.Y);
+            }
+        }
+
+
+        public event Action<IDrawspace> OnPaint;
         public event Action<IDrawspace> OnClose;
 
         //helps functions

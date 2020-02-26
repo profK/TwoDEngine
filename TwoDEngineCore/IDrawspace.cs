@@ -5,8 +5,9 @@ namespace TwoDEngineCore
 {
     public interface IDrawspace
     {
+        public IGraphicsProvider Provider { get; }
         #region Lifecycle
-        public event Action<IDrawspace,long> OnPaint;
+        public event Action<IDrawspace> OnPaint;
         public event Action<IDrawspace> OnClose;
         #endregion
 
@@ -21,7 +22,7 @@ namespace TwoDEngineCore
         public IMatrix2D PeekTransform();
 
        
-        public void DrawText(string text, IPoint2D position, int size = 24, uint color = 0xFF000000,
+        public void DrawText(string text,IFont font , uint color = 0xFF000000,
             IDrawspace.HORIZONTAL_ALIGNMENT align = IDrawspace.HORIZONTAL_ALIGNMENT.CENTER);
 
      
@@ -34,5 +35,8 @@ namespace TwoDEngineCore
         public void PopClip();
         #endregion
 
+        public IPoint2D Position { get; set; }
+        public IPoint2D Size { get; set; }
+       
     }
 }

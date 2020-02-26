@@ -1,7 +1,10 @@
 namespace TDEGui
 {
-    public class IContainer
+    public interface IContainer:IComponent
     {
-        
+        public void AddComponent(IComponent component);
+        public void RemoveComponent(IComponent component);
+
+        public abstract void Layout();
     }
 }

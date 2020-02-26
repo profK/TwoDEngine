@@ -1,6 +1,6 @@
 namespace TDEGui
 {
-    public class IWindow
+    public interface IWindow:IContainer
     {
         
     }

@@ -56,13 +56,31 @@ namespace SkiaGraphicsProvider
 
         public IDrawspace GetDrawspace(IRect2D subRect)
         {
-            return new GtkDrawspace((Rect2D)subRect);
+            return new GtkDrawspace(this,(Rect2D)subRect);
         }
 
         public IImage LoadImage(string path)
         {
             return (IImage)new Image(path);
         }
+
+        public IPoint2D MakePoint2D(float x, float y)
+        {
+            return new Point2D(x,y);
+        }
+
+        public IRect2D MakeRect2D(float x, float y, float w, float h)
+        {
+            return new Rect2D(x,y,w,h);
+        }
+
+        public IFont MakeFont(string fontName, int ptSize)
+        {
+            return new Font(fontName, ptSize);
+        }
+
+        
+
 
         public event Action<IGraphicsProvider> OnGraphicsInit;
 
@@ -84,10 +102,17 @@ namespace SkiaGraphicsProvider
             return new Matrix2D(SKMatrix.MakeTranslation(translation.X,translation.Y));
         }
         
+        public IMatrix2D CopyTransform(IMatrix2D source)
+        {
+            return new Matrix2D(source);
+        }
+        
         public static float DegreesToRads(float degrees)
         {
             return (float)(Math.PI * degrees / 180);
         }
+        
+        
 
         #endregion
     }

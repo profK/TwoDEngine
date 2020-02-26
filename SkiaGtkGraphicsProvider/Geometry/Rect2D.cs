@@ -12,6 +12,10 @@ namespace TwoDEngineCore.Geometry
         {    
             _SkRect = new SKRect(x,y,x+w,y+h);
         }
+        public Rect2D(SKRect r)
+        {
+            _SkRect = r;
+        }
 
         public IPoint2D Position
         {

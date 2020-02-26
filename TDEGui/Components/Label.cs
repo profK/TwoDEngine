@@ -1,24 +1,59 @@
 using TwoDEngineCore;
+using TwoDEngineCore.Assets;
 
 namespace TDEGui
 {
-    public class Text:IComponent
+    public class Label:AbstractComponent
     {
-        public void Paint(IDrawspace drawspace)
+        private IFont _minFont;
+        private IFont _maxFont;
+        
+        public Label(IContainer parent , string text, IFont font):base(parent)
         {
-            throw new System.NotImplementedException();
+            Text = text;
+            PreferredFont = CurrentFont = font;
+            parent?.AddComponent(this);
         }
 
-        public void Update(long deltaTime)
+        public override void PaintComponent(IDrawspace drawspace)
         {
-            throw new System.NotImplementedException();
+            drawspace.DrawText(Text,CurrentFont);
+        }
+
+        public override void Update(long deltaTime)
+        {
+            //nop
         }
 
 
-        public IPoint2D MinSize { get; }
-        public IPoint2D MaxSize { get; }
-        public IPoint2D PreferredSize { get; }
-        public IPoint2D Size { get; set; }
-        public IMatrix2D LocalXform { get; set; }
+        public override IPoint2D MinSize
+        {
+            get { return _minFont.GetTextSize(Text); }
+        }
+
+        public override IPoint2D MaxSize
+        {
+            get { return _maxFont.GetTextSize(Text); }
+        }
+
+        public override IPoint2D PreferredSize
+        {
+            get { return PreferredFont.GetTextSize(Text); }
+        }
+
+        public IPoint2D Size
+        {
+            get { return CurrentFont.GetTextSize(Text); }
+        }
+
+        
+
+        public int MinPtSize { set; get; }
+        public int MaxPtSize { set; get; }
+        public int CurrentPtSize { get; private set; }
+        public string Text { set; get; }
+        public IFont PreferredFont { set; get; }
+        public IFont CurrentFont { set; get; }
+        
     }
 }

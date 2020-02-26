@@ -7,7 +7,12 @@ namespace TwoDEngineCore.Geometry
 {
     public class Matrix2D:IMatrix2D
     {
-        internal SKMatrix _skMatrix;
+        internal SKMatrix _skMatrix; // a strut
+
+        public Matrix2D(IMatrix2D source)
+        {
+            _skMatrix = ((Matrix2D)source)._skMatrix; // copy on assign because struct
+        }
 
         public Matrix2D(SKMatrix matrix)
         {

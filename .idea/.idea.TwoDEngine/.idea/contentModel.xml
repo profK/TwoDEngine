@@ -26,6 +26,7 @@
       </e>
       <e p="SkiaGtkGraphicsProvider" t="IncludeRecursive">
         <e p="Assets" t="Include">
+          <e p="Font.cs" t="Include" />
           <e p="Image.cs" t="Include" />
         </e>
         <e p="Class1.cs" t="Include" />
@@ -64,6 +65,15 @@
       </e>
       <e p="TDEGui" t="IncludeRecursive">
         <e p="Class1.cs" t="Include" />
+        <e p="Components" t="Include">
+          <e p="AbstractComponent.cs" t="Include" />
+          <e p="AbstractContainer.cs" t="Include" />
+          <e p="IComponent.cs" t="Include" />
+          <e p="IContainer.cs" t="Include" />
+          <e p="IWindow.cs" t="Include" />
+          <e p="Label.cs" t="Include" />
+          <e p="Window.cs" t="Include" />
+        </e>
         <e p="GUIService.cs" t="Include" />
         <e p="IGUIService.cs" t="Include" />
         <e p="TDEGui.csproj" t="IncludeRecursive" />
@@ -76,9 +86,22 @@
           </e>
         </e>
       </e>
+      <e p="TDEGuiTests" t="IncludeRecursive">
+        <e p="TDEGuiTests.csproj" t="IncludeRecursive" />
+        <e p="UnitTest1.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="TDEGuiTests.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
       <e p="TwoDEngine.sln" t="IncludeFlat" />
       <e p="TwoDEngineCore" t="IncludeRecursive">
         <e p="Assets" t="Include">
+          <e p="IFont.cs" t="Include" />
           <e p="IImage.cs" t="Include" />
           <e p="IText.cs" t="Include" />
         </e>
@@ -89,6 +112,7 @@
         <e p="IPaintable.cs" t="Include" />
         <e p="IPoint2D.cs" t="Include" />
         <e p="IRect2D.cs" t="Include" />
+        <e p="IUpdatable.cs" t="Include" />
         <e p="Tests" t="Include" />
         <e p="TwoDEngineCore.csproj" t="IncludeRecursive" />
         <e p="bin" t="ExcludeRecursive" />

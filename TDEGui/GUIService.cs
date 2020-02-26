@@ -24,6 +24,13 @@ namespace TDEGui
        
 
         public event Action<IGUIService> OnGUInit;
+        
+
+        public IWindow GetWindow(string windowName, IRect2D windowRect)
+        {
+            return new Window(_graphicsProvider.GetDrawspace(windowRect));
+        }
+
         public void GraphicsInit(IGraphicsProvider graphicsProvider)
         {
             OnGUInit?.Invoke(this);
