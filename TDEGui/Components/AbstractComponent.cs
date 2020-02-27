@@ -6,10 +6,11 @@ namespace TDEGui
     {
 
        
-        public AbstractComponent(IComponent parent)
+        public AbstractComponent(IContainer parent)
         {
             Parent = parent;
             SetDefaults();
+            parent?.AddComponent(this);
         }
         
         public void SetDefaults(){

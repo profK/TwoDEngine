@@ -12,7 +12,7 @@ namespace TDEGui
         public override IPoint2D PreferredSize { get; }
         public override IPoint2D CurrentSize {get; set; }
         
-        public AbstractContainer(IComponent parent) : base(parent)
+        public AbstractContainer(IContainer parent) : base(parent)
         {
             
         }
