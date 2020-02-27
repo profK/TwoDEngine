@@ -1,8 +1,7 @@
-using System;
-using System.Runtime.Intrinsics.X86;
 using SkiaSharp;
+using TwoDEngineCore;
 
-namespace TwoDEngineCore.Geometry
+namespace SkiaGraphicsProvider.Geometry
 {
     public class Rect2D:IRect2D
     {

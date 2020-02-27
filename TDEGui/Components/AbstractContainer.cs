@@ -37,7 +37,7 @@ namespace TDEGui
         {
             foreach (IComponent child in _children)
             {
-                child.PaintComponent(drawspace);
+                child.Paint(drawspace);
             }
         }
 

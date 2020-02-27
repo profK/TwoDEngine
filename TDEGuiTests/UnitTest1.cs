@@ -2,6 +2,7 @@
 using NUnit.Framework;
 using ServiceRegistry;
 using SkiaGraphicsProvider;
+using SkiaGraphicsProvider.Assets;
 using SkiaGraphicsProvider.Geometry;
 using TDEGui;
 using TwoDEngineCore;
@@ -30,6 +31,7 @@ namespace TDEGuiTests
                 IImage happyFace = provider.LoadImage("Assets/thumbs-up.png");
                 GUIImage img = new GUIImage(window,happyFace);
                 img.LocalXform.Translate(provider.MakePoint2D(100,100));
+                img.LocalXform.Rotate(72f);
                 IFont fnt = gp.MakeFont("courier", 28);
                 Label testLabel = new Label(window, "Test Label",fnt);
                 testLabel.LocalXform.Translate(provider.MakePoint2D(100,100));

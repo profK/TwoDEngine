@@ -68,6 +68,7 @@
         <e p="Components" t="Include">
           <e p="AbstractComponent.cs" t="Include" />
           <e p="AbstractContainer.cs" t="Include" />
+          <e p="GUIImage.cs" t="Include" />
           <e p="IComponent.cs" t="Include" />
           <e p="IContainer.cs" t="Include" />
           <e p="IWindow.cs" t="Include" />
@@ -87,6 +88,9 @@
         </e>
       </e>
       <e p="TDEGuiTests" t="IncludeRecursive">
+        <e p="Assets" t="Include">
+          <e p="thumbs-up.png" t="Include" />
+        </e>
         <e p="TDEGuiTests.csproj" t="IncludeRecursive" />
         <e p="UnitTest1.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
