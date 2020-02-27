@@ -1,6 +1,7 @@
 using System.Numerics;
+using TwoDEngineCore;
 
-namespace TwoDEngineCore.Geometry
+namespace SkiaGraphicsProvider.Geometry
 {
     public class Point2D:IPoint2D
     {

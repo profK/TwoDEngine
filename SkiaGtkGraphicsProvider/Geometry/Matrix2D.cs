@@ -1,9 +1,7 @@
-using System;
-using System.Numerics;
-using SkiaGraphicsProvider;
 using SkiaSharp;
+using TwoDEngineCore;
 
-namespace TwoDEngineCore.Geometry
+namespace SkiaGraphicsProvider.Geometry
 {
     public class Matrix2D:IMatrix2D
     {
