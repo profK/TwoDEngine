@@ -2,9 +2,9 @@ using System.Threading;
 using NUnit.Framework;
 using SkiaGraphicsProvider;
 using SkiaGraphicsProvider.Assets;
+using SkiaGraphicsProvider.Geometry;
 using TwoDEngineCore;
 using TwoDEngineCore.Assets;
-using TwoDEngineCore.Geometry;
 
 namespace SkiaGtkTests
 {

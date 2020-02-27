@@ -1,5 +1,5 @@
+using SkiaGraphicsProvider.Geometry;
 using SkiaSharp;
-using TwoDEngineCore.Geometry;
 
 namespace SkiaGraphicsProvider
 {
