@@ -2,10 +2,10 @@ using System;
 using Gtk;
 using ServiceRegistry;
 using SkiaGraphicsProvider.Assets;
+using SkiaGraphicsProvider.Geometry;
 using SkiaSharp;
 using TwoDEngineCore;
 using TwoDEngineCore.Assets;
-using TwoDEngineCore.Geometry;
 using Image = SkiaGraphicsProvider.Assets.Image;
 
 
