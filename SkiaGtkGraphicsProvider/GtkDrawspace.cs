@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using TwoDEngineCore.Geometry;
 using Gtk;
 using SkiaSharp;
 using SkiaSharp.Views.Desktop;
@@ -8,6 +7,7 @@ using SkiaSharp.Views.Gtk;
 using TwoDEngineCore;
 using TwoDEngineCore.Assets;
 using SkiaGraphicsProvider.Assets;
+using SkiaGraphicsProvider.Geometry;
 using Image = SkiaGraphicsProvider.Assets.Image;
 
 
