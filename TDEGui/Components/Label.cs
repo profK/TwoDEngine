@@ -12,7 +12,7 @@ namespace TDEGui
         {
             Text = text;
             PreferredFont = CurrentFont = font;
-            parent?.AddComponent(this);
+            
         }
 
         public override void PaintComponent(IDrawspace drawspace)
